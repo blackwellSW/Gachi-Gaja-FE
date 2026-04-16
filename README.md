@@ -166,12 +166,6 @@ VITE_API_BASE_URL=http://localhost:8080
 - `GET /groups/:id/candidates/votes` — 투표 요약 조회
 - `POST /groups/:id/candidates/votes` — 투표
 
-## 개발 메모
-
-- 앱 진입점은 `src/main.jsx`이며, 라우팅은 `src/router/router.jsx`에서 관리합니다.
-- API 클라이언트는 `src/api/client.js`에 정의되어 있으며, 요청 인터셉터에서 `X-USER-ID` 헤더를 자동으로 추가합니다.
-- Vite의 `root`가 `src/`로 설정되어 있어 `index.html`은 `src/index.html`에 위치합니다.
-
 ## GitHub
 
 - Repository: https://github.com/blackwellSW/Gachi-Gaja-FE
