@@ -9,11 +9,11 @@
 </p>
 
 <p>
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3a8a,50:3b82f6,100:93c5fd&height=220&section=header&text=Travel%20Together&fontSize=44&fontColor=ffffff&animation=fadeIn&fontAlignY=35" width="100%" alt="banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3a8a,50:3b82f6,100:93c5fd&height=220&section=header&text=Gachi%20Gaja&fontSize=44&fontColor=ffffff&animation=fadeIn&fontAlignY=35" width="100%" alt="banner" />
 </p>
 
 <p>
-  <strong>그룹 여행 계획 서비스 — 같이가자</strong><br/>
+  <strong>단체 여행 계획 서비스 — 같이가자</strong><br/>
   <sub>의견 수집부터 AI 일정 생성, 투표, 확정까지 한 번에</sub>
 </p>
 
@@ -21,7 +21,7 @@
 
 ## 프로젝트 한 줄 소개
 
-여행 그룹을 만들고, 구성원의 요구사항을 수집한 뒤 AI가 후보 일정을 생성하면 투표로 확정하는 그룹 여행 플래닝 웹 서비스입니다.
+여행 그룹을 만들고, 구성원의 요구사항을 수집한 뒤 AI가 후보 일정을 생성하면 투표로 확정하는 단체 여행 계획 AI 서비스입니다.
 
 ## 하이라이트
 
@@ -29,23 +29,6 @@
 - `요구사항 수집` → `AI 후보 일정 자동 생성` → `투표 확정` 플로우
 - `React + Vite` SPA 기반 빠른 개발 환경
 - `Radix UI / shadcn/ui` 컴포넌트 시스템
-- `MSW` 기반 목 API 환경 지원
-
-## 팀
-
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/blackwellSW">
-        <img src="https://github.com/blackwellSW.png?size=120" width="96" height="96" style="border-radius:50%;" alt="blackwellSW" />
-      </a>
-      <br/>
-      <strong>blackwellSW</strong>
-      <br/>
-      <sub>프론트엔드/기획</sub>
-    </td>
-  </tr>
-</table>
 
 ## 핵심 기능
 
@@ -187,7 +170,6 @@ VITE_API_BASE_URL=http://localhost:8080
 
 - 앱 진입점은 `src/main.jsx`이며, 라우팅은 `src/router/router.jsx`에서 관리합니다.
 - API 클라이언트는 `src/api/client.js`에 정의되어 있으며, 요청 인터셉터에서 `X-USER-ID` 헤더를 자동으로 추가합니다.
-- 목 API 개발 환경이 필요한 경우 `src/mocks/` 핸들러를 활성화하면 됩니다.
 - Vite의 `root`가 `src/`로 설정되어 있어 `index.html`은 `src/index.html`에 위치합니다.
 
 ## GitHub
